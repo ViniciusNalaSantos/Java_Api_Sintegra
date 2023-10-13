@@ -18,7 +18,7 @@ public class ConsultarSintegra {
     public static void main(String[] args) throws Exception {
 
         String token = new String("########-####-####-####-############"); // Para realizar a consulta é necessário um Token
-        String cnpj = new String("06990590000123");                        // CNPJ a ser consultado
+        String cnpj = new String("06990590000123");                        // CNPJ a ser consultado (no caso o da Google)
         
         // URL
         String url = new String("https://www.sintegraws.com.br/api/v1/execute-api.php?token=" + token + "&cnpj=" + cnpj + "&plugin=ST");
